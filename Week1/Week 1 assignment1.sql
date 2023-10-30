@@ -34,22 +34,3 @@ join
 join 
 	plan_tier as pt on pl.pid = pt.pid_tier;
     
-    
-    
-    
-    
-    
-    
-SELECT COUNT(CASE WHEN edate IS NULL THEN 1 ELSE NULL END) AS null_count
-FROM policies;
-
-SELECT COUNT(CASE WHEN address2 IS NULL THEN 1 ELSE NULL END) AS null_count
-FROM cust_addresses;
-
-select count(*) from cust_addresses;
-select count(*) from userinfo;
-
-
-
-
-
